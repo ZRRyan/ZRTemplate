@@ -1,0 +1,2 @@
+# ZRCheckVersion
+checkVersion
