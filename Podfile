@@ -2,6 +2,6 @@ platform :ios, '9.0'
 
 target 'TFTemplate' do
   
-  pod 'AFNetworking'
+  pod 'ZRNetworking'
   pod 'ZRCheckVersion'
 end

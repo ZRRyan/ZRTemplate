@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A8E88E9AB925CBE4EE9B448B0CA4A016'
-               BlueprintName = 'ZRCheckVersion'
+               BlueprintIdentifier = '1536A77BCFA4BB3B1C91A4540694822B'
+               BlueprintName = 'ZRNetworking'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libZRCheckVersion.a'>
+               BuildableName = 'libZRNetworking.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

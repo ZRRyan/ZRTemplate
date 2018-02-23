@@ -15,8 +15,6 @@
 		9466A3B42027FAEC00CDEFBF /* TFHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9466A3A02027FAEB00CDEFBF /* TFHomeVC.m */; };
 		9466A3B52027FAEC00CDEFBF /* TFBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9466A3A42027FAEB00CDEFBF /* TFBaseVC.m */; };
 		9466A3B62027FAEC00CDEFBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9466A3A82027FAEB00CDEFBF /* AppDelegate.m */; };
-		9466A3D92027FF1800CDEFBF /* TFHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9466A3D52027FF1800CDEFBF /* TFHttpTool.m */; };
-		9466A3DA2027FF1900CDEFBF /* TFNetworkingEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9466A3D82027FF1800CDEFBF /* TFNetworkingEngine.m */; };
 		9466A3DD2027FF3500CDEFBF /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9466A3DB2027FF3500CDEFBF /* NSDate+Extension.m */; };
 /* End PBXBuildFile section */
 
@@ -36,10 +34,6 @@
 		9466A3A52027FAEB00CDEFBF /* TFBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFBaseVC.h; sourceTree = "<group>"; };
 		9466A3A72027FAEB00CDEFBF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9466A3A82027FAEB00CDEFBF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9466A3D52027FF1800CDEFBF /* TFHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHttpTool.m; sourceTree = "<group>"; };
-		9466A3D62027FF1800CDEFBF /* TFNetworkingEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFNetworkingEngine.h; sourceTree = "<group>"; };
-		9466A3D72027FF1800CDEFBF /* TFHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHttpTool.h; sourceTree = "<group>"; };
-		9466A3D82027FF1800CDEFBF /* TFNetworkingEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFNetworkingEngine.m; sourceTree = "<group>"; };
 		9466A3DB2027FF3500CDEFBF /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
 		9466A3DC2027FF3500CDEFBF /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
 		F72B097120283DCF002296A3 /* TFPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFPrefixHeader.pch; sourceTree = "<group>"; };
@@ -202,7 +196,6 @@
 		9466A3B32027FAEC00CDEFBF /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				9466A3D42027FF1800CDEFBF /* Networking */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -217,17 +210,6 @@
 				9466A3922027FAAA00CDEFBF /* main.m */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		9466A3D42027FF1800CDEFBF /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				9466A3D72027FF1800CDEFBF /* TFHttpTool.h */,
-				9466A3D52027FF1800CDEFBF /* TFHttpTool.m */,
-				9466A3D62027FF1800CDEFBF /* TFNetworkingEngine.h */,
-				9466A3D82027FF1800CDEFBF /* TFNetworkingEngine.m */,
-			);
-			path = Networking;
 			sourceTree = "<group>";
 		};
 		B2D076E492D7F829EDB8A7E9 /* Pods */ = {
@@ -374,12 +356,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9466A3DD2027FF3500CDEFBF /* NSDate+Extension.m in Sources */,
-				9466A3D92027FF1800CDEFBF /* TFHttpTool.m in Sources */,
 				9466A3B62027FAEC00CDEFBF /* AppDelegate.m in Sources */,
 				9466A3932027FAAA00CDEFBF /* main.m in Sources */,
 				9466A3B42027FAEC00CDEFBF /* TFHomeVC.m in Sources */,
 				9466A3B52027FAEC00CDEFBF /* TFBaseVC.m in Sources */,
-				9466A3DA2027FF1900CDEFBF /* TFNetworkingEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
